@@ -11,9 +11,18 @@ class monkey:
   def __init__(self, name):
     self.name = name  # This is a instance variable and will be unique to the object which set it up. So monkeys can each have a different name but are all hairy.
 ```
-## Git Notes:
 
-```
+Public vs. Private
+All properties and methods within a class are public. To make one private you need use "__" (double underscore) to their name.
+Example:
+>self.__weapon = weapon
+
+you could no longer call class.__weapon outside of the class definition
+
+
+
+## Git Notes:
+TODO add notes about git flow and commands
 
 
 ```
