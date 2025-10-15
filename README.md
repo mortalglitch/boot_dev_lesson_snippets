@@ -1,9 +1,10 @@
 # boot_dev_lesson_snippets
+
 Lessons from my boot.dev run through that produced some interesting code snippets.
 
-## Python Notes:
-Classes are a sort of template. Objects are a instance of a class.
+## Python Notes
 
+Classes are a sort of template. Objects are a instance of a class.
 
 ```
 class monkey:
@@ -19,15 +20,19 @@ Example:
 
 you could no longer call class.__weapon outside of the class definition
 
-### Abstraction vs. Encapsulation:
+### Abstraction vs. Encapsulation
+
 Abstraction is about creating a simple interface for complex behavior. It focuses on what's exposed (public).
 Encapsulation is about hiding internal state. It focuses on tucking away the implementation details (private).
 Abstraction is more about reducing complexity, encapsulation is more about maintaining the integrity of system internals.
 
-### Inheritance:
+### Inheritance
+
 Inheritance makes a new class out of an old class without duplicating the code. The new child class can have their own methods and variables while still using the variables and methods of the parent.
 Example
+
 ```
+
 class computer:
   def __init__(self, cpu, gpu):
   etc.. etc..
@@ -39,12 +44,30 @@ class laptop(computer):
 
 ```
 
-TODO
+### Polymorphism
+
+Polymorphism means many forms. It allows for a common interface for inherited classes. It allows a variable, function or object to take on multiple forms.
+Example:
+
+```
+
+class animal():
+  def make_sound(self):
+    pass
+  
+class dog(animal):
+  def make_sound(self):
+    print("Bark")
+
+```
+
+TODO:
+
 Need a breakdown of list, dict's, tuples list of dictionaries and more.
 
-## Git Notes:
-TODO add notes about git flow and commands
+## Git Notes
 
+TODO add notes about git flow and commands
 
 ```
 
