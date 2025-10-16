@@ -61,6 +61,29 @@ class dog(animal):
 
 ```
 
+You can even overload operators such as def __add__ can override how a class is added '+'.
+
+```
+
+Operation Operator Method
+Addition + __add__
+Subtraction - __sub__
+Multiplication * __mul__
+Power ** __pow__
+Division / __truediv__
+Floor Division // __floordiv__
+Remainder (modulo) % __mod__
+Bitwise Left Shift << __lshift__
+Bitwise Right Shift >> __rshift__
+Bitwise AND & __and__
+Bitwise OR | __or__
+Bitwise XOR ^ __xor__
+Bitwise NOT ~ __invert__
+
+```
+
+You can also override a built in method like print() by using __str__
+
 TODO:
 
 Need a breakdown of list, dict's, tuples list of dictionaries and more.
