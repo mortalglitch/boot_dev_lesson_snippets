@@ -84,6 +84,25 @@ Bitwise NOT ~ __invert__
 
 You can also override a built in method like print() by using __str__
 
+### Functional Programming
+
+This section will be a work in progress for awhile.
+Sticking this in the python section though Python isn't solely focused on functional programming.
+I'll try and sum up the lessons I have been going through on these.
+Functional programming aims to focus on what you want to happen vs. caring how it happened. Where procedural focuses on the what and how.
+Now what the hell does that mean? It's a focus on composing functions vs mutating state(changing the value of variables)
+
+* High order functions - function that takes a function or returns a function   def thing(func, list): return result
+* first-class functions - function that is treated like a value def sum(x + y): return z
+* Pure functions - function which always returns the same value given the same argument, also causes no side effects. Pure functions should not change variables outside of their own scope (like globals)
+* Recursion
+* Closures
+* currying
+
+Anonymous functions = function without a name like lambdas. I put a lambda example in the python folder earlier this morning.
+
+Side effects: I'm still uncertain on the meaning of this one and will see if I can fill this out later TODO I know printing to the console counts
+
 TODO:
 
 Need a breakdown of list, dict's, tuples list of dictionaries and more.
